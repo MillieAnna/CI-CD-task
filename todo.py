@@ -9,7 +9,9 @@ def show_tasks():
         print("No tasks yet.")
 
 def add_task():
-    task = "Task from branch1"  # Simulated task input
+
+    task = "Task from branch2"  # Simulated task input
+
     tasks.append(task)
     print(f"Added task: {task}")
 
